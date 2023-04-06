@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font-style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/678cb59af9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img   class="tra"  src="./images/logo1.svg">
+            <img class="nome" src="./images/logo.svg" alt="LOGO">
+            <img class="tra"    src="./images/logo1.svg">
+        </div>
+        <nav class="nav  ">
+          <a class="nav-item " href="#">Início</a>
+          <a class="nav-item" href="#">Localização</a>
+          <a class="nav-item " href="#">Serviços</a>
+          <a class="nav-item" href="#">Segmentos</a>
+        </nav>
+    </header>
+    <section class="digital">
+        <image src="./images/image1.svg" alt="imagem"></image>
+        <div class="artigo">
+            <h2>Transformação Digital</h2>
+            <p class="des">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                has been the industry standard dummy text ever since 1500s.</p>
+            <button class="notifica" onclick=getNotifications() >Ativar Notificações</button>
+        </div>
+    </section>
+    <section class="localizar">
+        <div class="circulo">
+        </div>
+        <div class="localiza">
+
+            <h3>Localização</h3>
+        <p class="des">Lorem Ipsum is simply dummy text of the printing and typesseting industry. Lorem Ipsum
+            has been the industry standard
+        </p>
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="700" height="350" id="gmap_canvas" src="" name="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:350px;width:700px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:700px;}</style></div></div>
+        <canvas id="canvas"></canvas>
+        </div>
+        
+    </section>
+    <section class="servico">
+        <div class="circulo"></div>
+        <div class="localiza serv">
+            <h3>Serviços</h3>
+            <p class="des">Lorem Ipsum is simply dummy text of the printing and typesseting industry. Lorem Ipsum
+            has been the industry standard</p>
+        </div>
+        
+        <div class="tabela">
+                <div class="dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <div class="titulo">
+                        <p>01</p>
+                        <h4>UX Design</h4>
+                    </div>
+                    <div id="drag-1" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">o  Web Development
+                    </div>
+                    <div id="drag-2" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">o SaaS Platform Development
+                    </div>
+                    <div id="drag-3" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">o Full Stack Development
+                    </div>
+                   
+                    <div id="drag-4" class="draggable" draggable="true"
+                    ondragstart="dragStart(event)"> We create innovative solutions
+                    to solve customer problems
+                    and giving you more control
+                    over product.
+                    </div>
+                </div>
+                <div class="dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <div class="titulo">
+                        <p>02</p>
+                        <h4>Front-end</h4>
+                    </div>
+                    
+                    <div id="drag-5" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Lorem Ipsum is simply
+                        dummy text of the printing
+                        and typesetting industry.
+
+                    </div>
+                    <div id="drag-6" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Lorem Ipsum has been the
+                        industry's standard dummy
+                        text ever since the 1500s,
+                    </div>
+                </div>
+                <div class="dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <div class="titulo">
+                        <p>03</p>
+                        <h4>Test</h4>
+                    </div>
+                    
+                    <div id="drag-7" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Designing success through creative web design for your
+                        business to be the best.  
+                    </div>
+                    <div id="drag-8" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Improving customer
+                        engagement with enhanced
+                        user experience.
+                    </div>
+                </div>
+                <div class="dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <div class="titulo">
+                        <p>04</p> 
+                        <h4>Delivery</h4>
+                    </div>
+                   
+                    <div id="drag-9" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Develop your MVP with our
+                        experts who help create a
+                        solution that solves customer
+                        problems.
+                        
+                        
+                    </div>
+                    <div id="drag-10" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">We fill in the technology gaps
+                        for you.
+                    </div>
+                </div>
+
+        </div>    
+    </section>
+    <section>
+        <div class="localiza seg">
+        <h3>Segmentos</h3>
+        <p class="des">Lorem Ipsum is simply dummy text of the printing and typesseting industry. Lorem Ipsum
+            has been the industry standard</p>    
+        </div>
+        <div class="grid">
+            <div class="item">
+                <div class="icone"><i class="fa-solid fa-store" style="color:#000000;"></i></div>
+                <div>
+                    <h5>E-commerce</h5>
+                <p>We assist physical and digital
+                    retailers, wholesalers, and suppliers
+                    to automate commercial
+                    operations and business workflows.
+                    
+                    With e-commerce solutions, ERPS
+                    and improvised customer services.</p>
+                </div>
+                
+            </div>
+            <div class="item">
+                <div class="icone"><i class="fa-solid fa-sack-dollar" style="color:#000000;"></i> </div>
+                <div>
+                    <h5>FinTechs</h5>
+                <p>We assist physical and digital
+                    retailers, wholesalers, and suppliers
+                    to automate commercial
+                    operations and business workflows.
+                    
+                    With e-commerce solutions, ERPS
+                    and improvised customer services.</p>
+                </div>
+                
+            </div>
+            <div class="item">
+                <div class="icone"><i class="fa-solid fa-car-side" style="color:#000000;"></i></div>
+                <div>
+                    <h5>Mobilidade</h5>
+                     <p>We assist physical and digital
+                retailers, wholesalers, and suppliers
+                to automate commercial
+                operations and business workflows.
+                
+                With e-commerce solutions, ERPS
+                and improvised customer services.</p>
+                </div>
+
+           
+            </div>
+            <div class="item">
+                <div class="icone"><i class="fa-solid fa-clapperboard" style="color:#000000;"></i></div>
+                <div>
+                    <h5>Entretenimento</h5>
+                <p>We assist physical and digital
+                    retailers, wholesalers, and suppliers
+                    to automate commercial
+                    operations and business workflows.
+                    
+                    With e-commerce solutions, ERPS
+                    and improvised customer services.</p>
+                </div>
+                
+            </div>
+            <div class="item">
+                <div class="icone"><i class="fa-solid fa-scale-balanced" style="color:#000000;"></i></div>
+                <div>
+                    <h5>Direito</h5>
+
+                <p>We assist physical and digital
+                    retailers, wholesalers, and suppliers
+                    to automate commercial
+                    operations and business workflows.
+                    
+                    With e-commerce solutions, ERPS
+                    and improvised customer services.</p> 
+                </div>
+               
+            </div>
+            <div class="item">
+                <div class="icone"><i class="fa-solid fa-bell-concierge" style="color:#000000;"></i></div>
+                <div>
+
+                     <h5>Hospitabilidade</h5>
+                <p>We assist physical and digital
+                    retailers, wholesalers, and suppliers
+                    to automate commercial
+                    operations and business workflows.
+                    
+                    With e-commerce solutions, ERPS
+                    and improvised customer services.</p>
+                </div>
+                
+               
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <img   class="tra"  src="./images/logo1.svg">
+                <img   class="nome fot" src="./images/logo.svg" alt="LOGO">
+                <img   class="tra"  src="./images/logo1.svg">
+            </div>
+            
+            <p>@Copyright2022|All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="./js/geolocation.js"></script>
+    <script src="./js/canvas.js" ></script>
+    <script src="./js/drop.js"></script>
+    <script src="./js/notification.js"></script>
+</body>
+</html>

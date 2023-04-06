@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+}
+h2{
+    font-size:4.5rem;
+}
+h3{
+    font-size:3.2rem;
+}
+/*tamanho do parágrafo*/
+.des{
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth; 
+}
+
+/*header*/
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:5rem;
+    padding-top: 0.3rem;
+    
+}
+header .logo{
+    padding-left: 5rem;
+}
+.logo{
+    display:inline;
+}
+.tra{
+    width: 10px;
+    height: 30px;
+}
+.nome{
+    width: 110px;
+    height: 28px;
+}
+.fot{
+    filter: invert(1);
+}
+nav{
+    padding-top: 0.5rem;
+    display:flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color:#0074ff;
+}
+.digital{
+    display:flex;
+}
+.digital > *{
+    flex:1;
+}
+.artigo{
+    padding-top: 12.2rem;
+    padding-right: 2rem;
+}
+/*botão*/
+.notifica{
+    border:2px solid black;
+    color: #0074ff;
+    background-color: white;
+    padding: 13px 18px 13px 18px;
+    text-align:center;
+    text-decoration: none;
+    font-size:19px;
+    transition-duration: 0.4s;
+    cursor:pointer;
+    margin-top:3rem;
+}
+.notifica:hover{
+    background-color: #008CBA;
+    color:white
+}
+.localiza{
+    text-align: center;
+    padding: 0 15rem 0rem 19rem;
+}
+.localizar{
+    position: relative;
+    margin-top: 3rem;
+}
+.localizar .circulo{
+    left: -16rem;
+}
+.circulo{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: rgba(0,116,255,0.2);  
+    top: -2rem;
+    z-index: -1;
+}
+.servico{
+    position:relative;
+    margin-top: 3rem;
+}
+.servico .circulo{
+    border: 5px solid rgba(0,116,255,0.2);
+    transform: matrix(-1,0,0,1,0,0);
+    background-color: transparent;
+    right:-20rem;
+}
+
+.mapouter{
+    margin-left: 12rem;
+    margin-top: 5rem;
+}
+.serv{
+    padding-top: 4rem;
+}
+.tabela{
+    display: flex;
+    margin: 5rem;
+    min-height: 320px;
+    column-gap: 2rem;
+    padding-left: 15rem;
+    padding-right: 12rem;
+}
+.dropzone{
+        flex:1;
+        padding: 1rem;
+        background-color: #0074ff;
+        color:#fff;
+        display:flex;
+        flex-direction: column;
+}
+.dropzone .titulo{
+    position:relative;
+}
+.titulo p{
+    position:absolute;
+    font-size:8rem;
+    color:rgb(26, 26, 26,0.1);
+    font-weight: 700;
+}
+.dropzone h4{
+    font-size:2.5rem;
+    padding-top: 6rem;
+    padding-left: 2rem;
+}
+.draggable{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size:1.3rem;
+    cursor:pointer;
+}
+.draggable:hover{
+    box-shadow: 2px 1px 1px 1px rgb(24, 32, 32);
+}
+.seg{
+    margin-top: 15rem;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 100px 200px;
+    grid-gap: 9vw;
+    margin-left: 7%;
+    margin-top: 7rem;
+    margin-bottom:16rem;
+    }
+ h5{
+        font-size: 1.7rem;
+    }
+.item{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+.icone{
+    font-size:3rem;
+    box-shadow: 2px 2px black;
+    height: fit-content;
+    padding: 1rem;
+}
+.item p{
+    font-size: 1.3rem;
+}
+footer{
+    background-color:#1A1A1A;
+    height:10rem;
+    width:100%
+
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:3rem;
+    color:white;
+   
+    padding-left: 13rem;
+    padding-right: 9rem;
+    
+}
+@media(prefers-color-scheme:dark){
+    body{
+        background-color: #0c0b0b;
+        color:#fff;
+    }
+    .nome{
+        filter: invert(1);
+    }
+    nav a{
+        color: rgb(233, 190, 50);
+    }
+    nav a:hover{
+        color:#fff;
+    }
+    .icone i{
+        color:#ffff7c !important;
+    }
+    .notifica{
+        background-color: #008CBA;
+        color:white
+    }
+    .notifica:hover{
+        background-color:rgb(233, 190, 50);
+    }
+    .circulo{
+        background-color: rgba(52, 87, 225, 0.8);
+    }
+    .servico .circulo{
+        border-color: rgba(52, 87, 225, 0.8);
+    }
+    .canvas{
+        filter: invert(20%);
+    }
+}
